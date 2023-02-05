@@ -109,5 +109,5 @@ String fullCookieStr = "__test=" + str;
 
 ## Download
 You can download this on
-* [Github](https://github.com/HakkanR/alowAES)
+* [Github](https://github.com/HakkanR/slowAES)
 * Arduino Library Manager
