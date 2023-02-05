@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For SSD1306TUR
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+slowAES	KEYWORD1	slowAES
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+decrypt	KEYWORD2
+toNumbers	KEYWORD2
+toHex	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+FreeSansBold12pt7bTR	LITERAL1
