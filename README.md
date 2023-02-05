@@ -57,9 +57,9 @@ and get the page with querystring generated on your page like "**the page seen o
  
  If you find any problem or bug on this library, please use [Issues](https://github.com/HakkanR/slowAES/issues) feature on github or contact me on my web page 
  
- [devrelerim.com](https://www.devrelerim.com/2022/11/ssd1306tur-ssd1306-oled-ekran-turkce.htm) **Turkish**
+ [devrelerim.com](https://www.devrelerim.com/) **Turkish**
  
- [devrelerim.com](https://www.devrelerim.com/2022/11/ssd1306tur-ssd1306-oled-ekran-turkce.htm) **English**
+ [devrelerim.com](https://en.devrelerim.com/) **English**
 
  You can follow me on:
  * [Youtube](https://www.youtube.com/HakkanR)
