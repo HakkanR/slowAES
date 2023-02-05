@@ -5,16 +5,19 @@
  * the website given this example is hosted on InfinityFree Servers
  * You can use this example any of website hosted on InfinityFree.
  * This example get praytimes for Turkey/Istanbul city,
+ * 
  * You should get an apikey from web site by registering apikey form:
  * http://www.namazvakitleri.site/api/apireg.php
+ * 
  * when you've got an e-mail which contains your api key, put your
  * apiKey below. For more details about using api please visit :
  * http://www.namazvakitleri.site/api/index.php
+ * 
  * @version 1.0.0
  * @date 2023-02-05
  *
  * @section for more information please visit :
- * https://www.devrelerim.com/2022/11/ssd1306tur-ssd1306-oled-ekran-turkce.html
+ * https://www.devrelerim.com/2023/01/nodemcu-namaz-vakitlerini-cekme.html
  * https://www.youtube.com/HakkanR
  * https://github.com/HakkanR/slowAES
  *

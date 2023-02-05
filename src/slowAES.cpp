@@ -1,11 +1,20 @@
 /**
  * @file slowaes.cpp
  * @author Hakan ÖZMEN (hakkanr@gmail.com)
- * @brief
+ * @brief This library is used for bypassing slowAES protection on webpages can not be got
+ * with HttpClient directly. Kind of web pages need a testcookie to pass the page
+ * you actually wanted to get. Library generates testcookie based on aes.js.
  * @version 0.1
  * @date 2023-02-01
  *
- * @copyright Copyright (c) 2023
+ * @section for more information please visit :
+ * https://www.devrelerim.com/ [Turkish]
+ * https://en.devrelerim.com/ [English]
+ * https://www.youtube.com/HakkanR
+ * https://github.com/HakkanR/slowAES
+ * 
+ * @copyright
+ * BDS License, all above text must be included any redistribution.
  *
  */
 #include "slowAES.h"

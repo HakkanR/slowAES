@@ -9,7 +9,8 @@
  * @date 2023-02-05
  *
  * @section for more information please visit :
- * https://www.devrelerim.com/2022/11/ssd1306tur-ssd1306-oled-ekran-turkce.html
+ * https://www.devrelerim.com/ [Turkish]
+ * https://en.devrelerim.com/ [English]
  * https://www.youtube.com/HakkanR
  * https://github.com/HakkanR/slowAES
  * 
