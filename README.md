@@ -2,7 +2,7 @@
  **slowAES** is a library that allows you to bypass **"test cookie"** used web pages that protected by **aes.js** to prevent web-scrapping/or systems can not run javascripts.
 
  ## What is slowAES web-scraping protection? ##
- When you get a web page with HttpClient object by nodemcu or Arduino Ethernet Shield, your response like below instead of pageview in web browser:
+ When you get a web page with HttpClient object by nodemcu, your response like below instead of pageview in web browser:
 
  ```html
 <html>
@@ -43,7 +43,7 @@ This means the page you wanted to get has kind of **slowAES protection** based c
 ie.
 the page you wanted to get : http://www.namazvakitleri.site
 
-the page seen on browser : http://www.namazvakitleri.site/i=1 
+the page seen on browser : http://www.namazvakitleri.site/?i=1 
 
 with a cookie named **__test** and valued : **de1a59425ae4ce0c74d68c19716ffe76**
 
@@ -72,7 +72,7 @@ and get the page with querystring generated on your page like "**the page seen o
  ```cpp
  #include <slowAES.h>
  ```
- Get the first page which contains jacascript code, extact your a,b,c values in response and set them to variables called a,b,c: 
+ Get the first page which contains jacascript code, parse your a,b,c values in response and set them to variables called a,b,c: 
  
 ```c
 const char* a = "f655ba9d09a112d4968c63579db590b4";
@@ -90,18 +90,24 @@ toNumbers(b, bNums);
 toNumbers(c, cNums);
 ```
 
- Initiate the object with params **aNums**, **bNums**, **cNums**, arrays:
+ Initiate the object and call decrypt **aNums**, **bNums**, **cNums**, arrays:
 ```c
 uint8_t finalCookie[33];
-slowAES _slowAES(cNums, 2, aNums, bNums);
-toHex(_slowAES.decrypt(), finalCookie);
+uint8_t resNums[16];
+slowAES _slowAES;
+_slowAES.decrypt(cNums, aNums, bNums,resNums);
+toHex(resNums, finalCookie);
 ```
+
+Your Final cookie is ready as follows:
+```c
+String str = (char *)finalCookie;
+String fullCookieStr = "__test=" + str;
+```
+
+> You can find a working example in examples folder.
 
 ## Download
 You can download this on
 * [Github](https://github.com/HakkanR/SSD1306TUR)
 * Arduino Library Manager
-* PlatformIO Libraries
-
-
-> You can find a working example in examples folder.

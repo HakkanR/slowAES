@@ -14,7 +14,6 @@ slowAES::slowAES()
 }
 void slowAES::decrypt(uint8_t *cipherin, uint8_t *key, uint8_t *iv, uint8_t *bytesOut)
 {
-	// return cipherin;
 	uint8_t output[16];
 	decrypt(cipherin, key, output);
 	for (int i = 0; i < 16; i++)

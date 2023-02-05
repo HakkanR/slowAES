@@ -1,3 +1,21 @@
+/**
+ * @file slowaes.h
+ * @author Hakan ÖZMEN (hakkanr@gmail.com)
+ * @brief
+ * This library is used for bypassing slowAES protection on webpages can not be got
+ * with HttpClient directly. Kind of web pages need a testcookie to pass the page
+ * you actually wanted to get. Library generates testcookie based on aes.js.
+ * @version 1.0.0
+ * @date 2023-02-05
+ *
+ * @section for more information please visit :
+ * https://www.devrelerim.com/2022/11/ssd1306tur-ssd1306-oled-ekran-turkce.html
+ * https://www.youtube.com/HakkanR
+ * https://github.com/HakkanR/slowAES
+ * 
+ * @copyright BDS License, all above text must be included any redistribution.
+ *
+ */
 #ifndef __SLOWAES_H_
 #define __SLOWAES_H_
 
@@ -9,7 +27,6 @@ class slowAES
 public:
 	slowAES();
 	void decrypt(uint8_t *c, uint8_t *a, uint8_t *b, uint8_t *);
-
 private:
 	void decrypt(uint8_t *, uint8_t *, uint8_t *);
 	void invMain(uint8_t *, uint8_t *, uint8_t);
@@ -91,7 +108,6 @@ private:
 		OFB,
 		CFB,
 		CBC
-
 	};
 	enum keySize
 	{
