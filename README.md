@@ -59,7 +59,7 @@ and get the page with querystring generated on your page like "**the page seen o
  
  [devrelerim.com](https://www.devrelerim.com/) **Turkish**
  
- [devrelerim.com](https://en.devrelerim.com/) **English**
+ [devrelerim.com](https://en.devrelerim.com/2023/02/slowaes-bypass-test-cookie-nodemcu.html) **English**
 
  You can follow me on:
  * [Youtube](https://www.youtube.com/HakkanR)
