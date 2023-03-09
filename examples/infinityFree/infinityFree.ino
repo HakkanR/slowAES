@@ -55,7 +55,7 @@ void setup()
 
 	/* getting abc vars */
 	int loc = payload.indexOf("var a=toNumbers(");
-	String temp = payload.substring(loc, temp.length());
+	String temp = payload.substring(loc, loc+147);
 	temp.replace("var a=toNumbers(\"", "");
 	String a = temp.substring(0, 32);
 
